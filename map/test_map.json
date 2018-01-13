@@ -1,0 +1,80 @@
+[
+    [
+        {
+            "id": "11,-150", 
+            "owner": "0x7eb47982982a58b71b5508cf401bb9c9c1718c67", 
+            "type": "Land", 
+            "value": 5000, 
+            "x": 1, 
+            "y": 0
+        }, 
+        {
+            "id": "11,-150", 
+            "owner": "0x7eb47982982a58b71b5508cf401bb9c9c1718c67", 
+            "type": "Land", 
+            "value": 5000, 
+            "x": 2, 
+            "y": 0
+        }, 
+        {
+            "id": "12,-150", 
+            "owner": "Unclaimed", 
+            "type": "Vacant", 
+            "value": 1000, 
+            "x": 3, 
+            "y": 0
+        }
+    ],
+    [
+        {
+            "id": "13,-150", 
+            "owner": "0xf0ed792e7001c7fccf754edc50c75977d4414085", 
+            "type": "Land", 
+            "value": 1750, 
+            "x": 1, 
+            "y": 1
+        }, 
+        {
+            "id": "13,-150", 
+            "owner": "0xf0ed792e7001c7fccf754edc50c75977d4414085", 
+            "type": "Land", 
+            "value": 1750, 
+            "x": 2, 
+            "y": 1
+        }, 
+        {
+            "id": "14,-150", 
+            "owner": "somerandohere", 
+            "type": "Land", 
+            "value": 1000, 
+            "x": 3, 
+            "y": 1
+        }
+    ],
+    [
+        {
+            "id": "11,-150", 
+            "owner": "0x7eb47982982a58b71b5508cf401bb9", 
+            "type": "Land", 
+            "value": 5000, 
+            "x": 1, 
+            "y": 2
+        }, 
+        {
+            "id": "11,-150", 
+            "owner": "982982a58b71b5508cf401bb9c9c1718c67", 
+            "type": "Road", 
+            "value": 5000, 
+            "x": 2, 
+            "y": 2
+        }, 
+        {
+            "id": "12,-150", 
+            "owner": "982982a58b71b5508cf401bb9c9c1718c67", 
+            "type": "Road", 
+            "value": 1000, 
+            "x": 3, 
+            "y": 2
+        }
+    ]
+]
