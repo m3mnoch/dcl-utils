@@ -205,6 +205,7 @@ def datetime_from_utc_to_local(datestring):
 def log_out(logline):
 	global log_data
 	log_data += "\n" + logline
+	print logline
 
 
 def string_to_color(my_string):
@@ -260,6 +261,4 @@ log_out("")
 # dump the logfile.
 with open("log_data.log", "a") as logfile:
 	logfile.write(log_data)
-
-print log_data
 

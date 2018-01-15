@@ -1,10 +1,17 @@
 import json
 
 
+# full map
 min_x = -150
 min_y = -150
 max_x = 150
 max_y = 150
+
+# test coords
+#min_x = 50
+#min_y = 0
+#max_x = 120
+#max_y = 50
 
 
 def old_cluster_approach():
