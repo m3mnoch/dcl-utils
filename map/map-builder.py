@@ -29,6 +29,11 @@ labelFontLarge = ImageFont.truetype("RobotoCondensed-Bold.ttf", 60)
 max_characters = 15
 
 
+# for making your own custom map.
+highlight_color = "Crimson"
+highlight_owner = "0xccd5089557ae6a2ba063e8720e725a6bf743b3e8"
+
+
 
 def load_map():
 	log_out("fetching map data from CACHE\n")
@@ -70,6 +75,9 @@ def build_tiles(map_data):
 
 			elif tile_data['type'] == "Vacant":
 				fill_color = vacant_color
+
+			if tile_data['owner'] == highlight_owner:
+				fill_color = highlight_color
 
 			base_tile = Image.new("RGB", (tile_size, tile_size))
 			dr = ImageDraw.Draw(base_tile)
