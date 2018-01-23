@@ -76,7 +76,7 @@ def build_tiles(map_data):
 			elif tile_data['type'] == "Vacant":
 				fill_color = vacant_color
 
-			if tile_data['owner'] == highlight_owner:
+			if tile_data['owner'].lower() == highlight_owner.lower():
 				fill_color = highlight_color
 
 			base_tile = Image.new("RGB", (tile_size, tile_size))
