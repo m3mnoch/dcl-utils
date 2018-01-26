@@ -1,5 +1,8 @@
 # Decentraland Map
 
+direct link to the latest verison of the map:
+https://raw.githubusercontent.com/m3mnoch/dcl-utils/master/map/dist/decentraland_map.png
+
 #### a quick and dirty python parser to draw a static bitmap version of decentraland.
 
 **python coordinate-builder.py**
